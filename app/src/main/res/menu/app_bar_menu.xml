@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/settings"
+        app:showAsAction="always"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_foreground"/>
+    <item
+        android:id="@+id/addContact"
+        app:showAsAction="always"
+        android:title="Settings"
+        android:icon="@drawable/ic_contact_foreground"/>
+    <item
+        android:id="@+id/favourite"
+        app:showAsAction="always"
+        android:title="Settings"
+        android:icon="@drawable/ic_favourite_foreground"/>
+    <item
+        android:id="@+id/feedback"
+        app:showAsAction="never"
+        android:title="Feedback" />
+    <item
+        android:id="@+id/close"
+        app:showAsAction="never"
+        android:title="Close"/>
+</menu>
